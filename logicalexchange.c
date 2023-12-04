@@ -63,6 +63,8 @@ int main(int argc, char *argv[]) {
     printf("\n");
 
     var1 ^= var2;
+    var2 ^= var1;
+    var1 ^= var2;
 
     printf("%i %i\n", var1, var2);
 
